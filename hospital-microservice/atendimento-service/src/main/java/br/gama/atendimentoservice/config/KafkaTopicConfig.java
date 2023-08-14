@@ -10,11 +10,8 @@ public class KafkaTopicConfig {
     
     @Bean
     NewTopic myTopic() {
-        return TopicBuilder.name("farmacia").build();
+        return TopicBuilder.name("hospital-farmacia").build();
     }
 
-    @Bean
-    NewTopic newUser() {
-        return TopicBuilder.name("newUser").build();
-    }
+
 }
